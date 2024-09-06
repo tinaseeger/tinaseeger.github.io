@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2487.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
+    li.li1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
+    li.li2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #0000e9}
+    li.li3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #0000e9; -webkit-text-stroke: #0000e9}
+    span.s1 {font-kerning: none; background-color: #ffffff}
+    span.s2 {background-color: #ffffff; -webkit-text-stroke: 0px #000000}
+    span.s3 {font-kerning: none; background-color: #ffffff; -webkit-text-stroke: 0px #000000}
+    span.s4 {text-decoration: underline ; font-kerning: none; color: #0000e9; -webkit-text-stroke: 0px #0000e9}
+    span.s5 {text-decoration: underline ; font-kerning: none}
+    span.s6 {font-kerning: none}
+    ul.ul1 {list-style-type: disc}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">{% if site.locale and site.locale != "" and site.locale != nil %}</span></p>
+<p class="p1"><span class="s1">Copyright © {{ site.title }} {{ 'now' | date: "%Y" }}</span></p>
+<ul class="ul1">
+  <li class="li1"><span class="s2"></span><span class="s1">{% for link in site.data.sitetext[site.locale].footer.social %}</span></li>
+  <li class="li2"><span class="s2"></span><span class="s3">{% if link.url %} <a href="file:///Users/cseeger/Documents/Website/tinaseeger.github.io/_includes/%7B%7B%20link.url%20%7D%7D"><span class="s4">{% if link.icon %}{% endif %} </span></a>{% endif %}</span></li>
+  <li class="li1"><span class="s2"></span><span class="s1">{% endfor %}</span></li>
+</ul>
+<ul class="ul1">
+  <li class="li3"><span class="s2"><a href="file:///Users/cseeger/Documents/Website/tinaseeger.github.io/_includes/legal"><span class="s5">{{ site.data.sitetext[site.locale].footer.legal | default: "Privacy Policy" }}</span></a></span></li>
+</ul>
+<p class="p1"><span class="s1">{% else %}</span></p>
+<p class="p1"><span class="s1">Copyright © {{ site.title }} {{ 'now' | date: "%Y" }}</span></p>
+<ul class="ul1">
+  <li class="li1"><span class="s2"></span><span class="s1">{% for link in site.data.sitetext.footer.social %}</span></li>
+  <li class="li2"><span class="s2"></span><span class="s3">{% if link.url %} <a href="file:///Users/cseeger/Documents/Website/tinaseeger.github.io/_includes/%7B%7B%20link.url%20%7D%7D"><span class="s4">{% if link.icon %}{% endif %} </span></a>{% endif %}</span></li>
+  <li class="li1"><span class="s2"></span><span class="s1">{% endfor %}</span></li>
+</ul>
+<ul class="ul1">
+  <li class="li3"><span class="s2"><a href="file:///Users/cseeger/Documents/Website/tinaseeger.github.io/_includes/legal"><span class="s5">{{ site.data.sitetext.footer.legal | default: "Privacy Policy" }}</span></a></span></li>
+</ul>
+<p class="p1"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s6">{% if page.layout == "page" %} {% endif %}</span></p>
+</body>
+</html>

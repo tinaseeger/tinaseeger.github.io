@@ -1,22 +1,19 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: Example
-  subtitle: subtitle
-  thumbnail: https://place-hold.it/400x300
+  title: Mars
+  subtitle: 
+  thumbnail: assets/img/portfolio/mars.jpg
   
 #what displays when the item is clicked:
-title: Title
-subtitle: subtitle lorem ipsum dolor sit amet consectetur.
-image: https://place-hold.it/400x300 #main image, can be a link or a file in assets/img/portfolio
+title: Mars
+subtitle: 
+image: assets/img/portfolio/headshot.png #main image, can be a link or a file in assets/img/portfolio 
 alt: image alt text
 
 ---
-Use this area to describe your project. **Markdown** supported.
+My work focuses on the way the sedimentary rocks of Mars record the history of ancient water on this now-dry planet.  I primarily work with the Curiosity rover, which just celebrated 12 years of Martian exploration, and use the close-up images it takes of the surface to study how the rock is cemented together.  
 
-optional info list (delete if not using):
+Groundwater likely flowed through pore spaces in these rocks long after the lakes and rivers dried up on the surface, and I am using unique diagenetic textures--color splotches, raised bumpy nodules, and veins that all formed as a result of this groundwater movement--to better understand the timing and extent of Mars' drying process.
 
-{:.list-inline} 
-- Date: 
-- Client: 
-- Category: 
+You can read all about it in my paper, coming out soon!
 

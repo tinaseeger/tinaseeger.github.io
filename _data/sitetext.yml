@@ -11,127 +11,95 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
+    title: 
+    text: Tina Seeger
+    button: Ph.D. Candidate
     buttonlink: "#services"
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "My Philosophy"
+    text: "Welcome! My name is Tina and I am a planetary geologist currently finishing my Ph.D. at Caltech.  Geologists are those fun scientists who hike around and lick rocks, but what the heck is a *planetary* geologist?? Great question. It's how I combine my love of rocks with a passion for astronomy that stretches back to childhood: I look at rocks in space. This work has taken me across the solar system, from Mars to Jupiter's moon Io, while still allowing me to ground (ha) my research in terrestrial geology. I love to spend time outside in the field, hiking around with a backpack full of rocks, and find this setting to be one of the best places to share my knowledge and help connect other people to the world around them. Please poke around and learn a bit more about what I love!"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "Research"
+        desc: "My research focuses on sedimentary processes and the evolution of planetary surfaces on two vastly different bodies: one that has barely changed in 3.5 billion years, and one that changes almost daily. The Solar System can be a series of fun house mirrors held up to the Earth, and I am most excited about the creative space where we can look outwards to better understand the rocks underneath our feet."
+        icon:  fas fa-rocket #fas fa-shopping-cart .... find more icons at https://fontawesome.com/icons
+      - title: "Teaching"
+        desc: "I love working with students of all levels inside the classroom and out in the field. I've had a blast as a TA and guest lecturer for two courses at Caltech (both with a field component) and am working towards Caltech's Certificate of Practice in Teaching."
+        icon: fas fa-map
+      - title: "Beyond the Classroom"
+        desc: "I've spent 8 wonderful summers working as an Interpretive Ranger for the National Park Service--at Mount Rainier in Washington and Denali in Alaska. Helping people find connection to and meaning in the world around them is extremely rewarding to me, and is a core part of what I do!"
+        icon: fas fa-tree
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Projects"
+    text: "Learn more about my Thesis and life chapters"
     section: portfolio
     closebutton: "Close Project"
 
   timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
+    title: "My Journey"
+    text: " "
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
+      - title: "Williams College"
+        year: " "
+        desc: "**B.A. in Geoscience (Highest Honors) & Astronomy** <br> Senior Thesis: Geomorphology of Mountains on Io advised by Dr. Ronadh Cox"
+        image: assets/img/timeline/Williams.png
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
+      - title: "Ranger Tina"
+        year: " "
+        desc: "I spent 7 magical summers leading Night Sky programs as Mount Rainier's 'Dark Ranger' before heading north to make geology programs under the Midnight Sun in Denali National Park and Preserve in Alaska!"
+        image: assets/img/timeline/ranger.jpg
         alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
+      - title: "Western Washington University"
+        year: " "
+        desc: "**M.S. in Geology** Advised by Dr. Melissa Rice. <br> Thesis: Using multispectral imagery to interrogate deposition, alteration, and weathering along Curiosity rover’s traverse"
+        image: assets/img/timeline/WWU.jpeg
         alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
+      - title: "Caltech"
+        year: "Present"
+        desc: "**Ph.D. Candidate in Geology** <br> Advised by Dr. John Grotzinger and Dr. Katherine de Kleer"
+        image: assets/img/timeline/Caltech.jpg
         alt:
         # you can enforce the alignment
         align: right
-    end: "Be Part <br> of Our <br> Story!"
+    end: "?? <br> I'm looking <br> for jobs!"
 
   about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    title: "How does NASA name things on Mars?"
+    text: ""
+    body: "Check out my [JPL Mars Report](https://www.jpl.nasa.gov/videos/how-does-nasa-name-things-on-mars-mars-report-june-2023) video!"
     section: about
 
-  clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-
   team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    title: "Select Publications"
+    text: " "
+    subtext: "**Seeger, C. H.**, and Grotzinger, J. P. (in review). Diagenesis of the Clay-Sulfate Stratigraphic Transition, Mount Sharp Group, Gale Crater, Mars. Journal of Geophysical Research, Planets. 
+<br> <br>
+Stack, K. M., and 41 coauthors incl. **C. H. Seeger** (2024). Sedimentology and Stratigraphy of the Shenandoah Formation, Western Fan, Jezero Crater, Mars. Journal of Geophysical Research: Planets, 129(2), e2023JE008187. https://doi.org/10.1029/2023JE008187
+<br> <br>
+Eng, A. M., and 16 coauthors incl. **C. H. Seeger**. (2024). A Mastcam multispectral investigation of rock variability in Gale crater, Mars: Implications for alteration in the clay‐sulfate transition of Mount Sharp. Journal of Geophysical Research: Planets, 129(2), e2023JE008033. https://doi.org/10.1029/2023JE008033
+<br> <br>
+Treiman, A. H., and 51 coauthors incl. **C. H. Seeger**. (2023). Manganese-Iron Phosphate Nodules at the Groken Site, Gale Crater, Mars. Minerals, 13(9), 1122. https://doi.org/10.3390/min13091122
+<br> <br>
+Bell III, J. F., and 92 coauthors incl. **C. H. Seeger**. (2022). Geological, multispectral, and meteorological imaging results from the Mars 2020 Perseverance rover in Jezero crater. Science Advances, 8(47), eabo4856. doi:10.1126/sciadv.abo4856
+<br> <br>
+Rudolph, A., Horgan, B., Johnson, J., Bennett, K., Haber, J., Bell III, J. F., Fox, V., Jacob, S., Maurice, S., Rampe, E., Rice, M., **Seeger, C.**, and Wiens, R. (2022). The distribution of clay minerals and their impact on diagenesis in Glen Torridon, Gale crater, Mars. Journal of Geophysical Research: Planets, 127(10), e2021JE007098. https://doi.org/10.1029/2021JE007098
+<br> <br>
+Haber, J. T., Horgan, B., Fraeman, A. A., Johnson, J. R., Bell III, J. F., Rice, M. S., **Seeger, C. H.**, ... & Jacob, S. (2022). Mineralogy of a possible ancient lakeshore in the Sutton Island member of Mt. Sharp, Gale crater, Mars, from Mastcam multispectral images. Journal of Geophysical Research: Planets, 127(10), e2022JE007357. https://doi.org/10.1029/2022JE007357
+<br> <br>
+Rice, M. S., **Seeger, C.**, Bell, J., Calef, F., St. Clair, M., Eng, A., ... & Wellington, D. (2022). Spectral diversity of rocks and soils in Mastcam observations along the Curiosity rover's traverse in Gale crater, Mars. Journal of Geophysical Research: Planets, 127(8), e2021JE007134. https://doi.org/10.1029/2021JE007134
+<br> <br>
+**Seeger, C.**, Using Multispectral Imagery to Interrogate Deposition, Alteration, and Weathering Across Curiosity Rover’s Traverse in Gale Crater, Mars. (2020). WWU Graduate School Collection. 974. https://cedar.wwu.edu/wwuet/974
+"
     section: team
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
 
   contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    title: "Contact Me"
+    text: "Please use this form to get in touch. If you are enquiring about a speaking engagement, please include some details about your organization or school and what topics you would be excited to host a talk about!"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -145,18 +113,9 @@ en: &DEFAULT_EN
     submit: "Send Message"
 
   footer:
-    legal: "Privacy Policy"
+    legal: 
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
+      
 en-US:
   <<: *DEFAULT_EN
 en-CA:
