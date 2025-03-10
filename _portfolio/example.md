@@ -15,5 +15,5 @@ My work focuses on the way the sedimentary rocks of Mars record the history of a
 
 Groundwater likely flowed through pore spaces in these rocks long after the lakes and rivers dried up on the surface, and I am using unique diagenetic textures--color splotches, raised bumpy nodules, and veins that all formed as a result of this groundwater movement--to better understand the timing and extent of Mars' drying process.
 
-You can read all about it in my paper, coming out soon!
+You can read all about it in my recent [paper](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2024JE008531)!
 
