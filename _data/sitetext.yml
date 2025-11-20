@@ -13,22 +13,22 @@ en: &DEFAULT_EN
   header:
     title: 
     text: Tina Seeger
-    button: Ph.D. Candidate
+    button: Ph.D.
     buttonlink: "#services"
 
   services:
     title: "My Philosophy"
-    text: "Welcome! My name is Tina and I am a planetary geologist currently finishing my Ph.D. at Caltech.  Geologists are those fun scientists who hike around and lick rocks, but what the heck is a *planetary* geologist?? Great question. It's how I combine my love of rocks with a passion for astronomy that stretches back to childhood: I look at rocks in space. This work has taken me across the solar system, from Mars to Jupiter's moon Io, while still allowing me to ground (ha) my research in terrestrial geology. I love to spend time outside in the field, hiking around with a backpack full of rocks, and find this setting to be one of the best places to share my knowledge and help connect other people to the world around them. Please poke around and learn a bit more about what I love!"
+    text: "Welcome! My name is Tina and I am a planetary geologist who recently finished my Ph.D. at Caltech.  Geologists are those fun scientists who hike around and lick rocks, but what the heck is a *planetary* geologist?? Great question. It's how I combine my love of rocks with a passion for astronomy that stretches back to childhood: I look at rocks in space. This work has taken me across the solar system, from Mars to Jupiter's moon Io, while still allowing me to ground (ha) my research in terrestrial geology. I love to spend time outside in the field, hiking around with a backpack full of rocks, and find this setting to be one of the best places to share my knowledge and help connect other people to the world around them. Please poke around and learn a bit more about what I love!"
     section: services
     list:
       - title: "Research"
         desc: "My research focuses on sedimentary processes and the evolution of planetary surfaces on two vastly different bodies: one that has barely changed in 3.5 billion years, and one that changes almost daily. The Solar System can be a series of fun house mirrors held up to the Earth, and I am most excited about the creative space where we can look outwards to better understand the rocks underneath our feet."
         icon:  fas fa-rocket #fas fa-shopping-cart .... find more icons at https://fontawesome.com/icons
       - title: "Teaching"
-        desc: "I love working with students of all levels inside the classroom and out in the field. I've had a blast as a TA and guest lecturer for two courses at Caltech (both with a field component) and am working towards Caltech's Certificate of Practice in Teaching."
+        desc: "I love working with students of all levels inside the classroom and out in the field. I've had a blast as a TA and guest lecturer for two courses at Caltech (both with a field component) and completed Caltech's Certificate of Practice in Teaching."
         icon: fas fa-map
       - title: "Beyond the Classroom"
-        desc: "I've spent 8 wonderful summers working as an Interpretive Ranger for the National Park Service--at Mount Rainier in Washington and Denali in Alaska. Helping people find connection to and meaning in the world around them is extremely rewarding to me, and is a core part of what I do!"
+        desc: "I spent 8 wonderful summers working as an Interpretive Ranger for the National Park Service--at Mount Rainier in Washington and Denali in Alaska. Helping people find connection to and meaning in the world around them is extremely rewarding to me, and is a core part of what I do!"
         icon: fas fa-tree
 
   portfolio:
@@ -55,17 +55,23 @@ en: &DEFAULT_EN
         image: assets/img/timeline/ranger.jpg
         alt:
       - title: "Western Washington University"
-        year: " "
+        year: "2020"
         desc: "**M.S. in Geology** Advised by Dr. Melissa Rice. <br> Thesis: Using multispectral imagery to interrogate deposition, alteration, and weathering along Curiosity rover’s traverse"
         image: assets/img/timeline/WWU.jpeg
         alt: image alt text
       - title: "Caltech"
-        year: "Present"
-        desc: "**Ph.D. Candidate in Geology** <br> Advised by Dr. John Grotzinger and Dr. Katherine de Kleer"
+        year: "2025"
+        desc: "**Ph.D. in Geology** <br> Advised by Dr. John Grotzinger and Dr. Katherine de Kleer <br> Thesis: Surface Evolution on Basaltic Bodies: Tectonic, Geomorphic, and Diagenetic
+Modification on Io and Mars"
         image: assets/img/timeline/Caltech.jpg
         alt:
+      - title: "Rice University"
+        year: "Present"
+        desc: "**Postdoctoral Associate** <br> Advised by Dr. Kirsten Siebach"
+        image: assets/img/timeline/Rice.png
+        alt:
         # you can enforce the alignment
-        align: right
+        # align: right
     end: "?? <br> I'm looking <br> for jobs!"
 
   about:

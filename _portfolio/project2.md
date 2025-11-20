@@ -5,7 +5,7 @@ image: assets/img/portfolio/outreach_group.png
 alt: Keep Exploring
 
 caption:
-  title: Outreach & Public Speaking
+  title: Outreach & <br> Public Speaking
   subtitle: 
   thumbnail: assets/img/portfolio/earth2.png
 ---
